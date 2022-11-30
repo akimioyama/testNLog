@@ -23,6 +23,7 @@ namespace testNLog
         private void button1_Click(object sender, EventArgs e)
         {
             string text = textBox1.Text;
+
             try
             {
                 double temp = Convert.ToDouble(text);
